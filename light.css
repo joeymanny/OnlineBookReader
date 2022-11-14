@@ -1,0 +1,31 @@
+ .text {
+   font-size: 27px;
+   margin-left:30%;
+   margin-right:30%
+  }
+ @media screen and (max-width: 1400px) {
+  .text {
+   font-size: 27px;
+   margin-left:20%;
+   margin-right:20%
+  }
+ }
+ @media screen and (max-width: 800px) {
+  .text {
+   font-size: 25px;
+   margin-left:10%;
+   margin-right:10%
+  }
+ }
+ @media screen and (max-width: 600px) {
+  .text {
+   font-size: 25px;
+   margin-left:5%;
+   margin-right:5%
+  }
+ }
+ .chapter {
+  font-family: "Times New Roman", Georgia, Serif;
+  margin: 40px;
+  margin-top: 120px;
+ }
