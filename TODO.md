@@ -1,6 +1,6 @@
 # TODO
-## current
-1. Add both moby files
+## now
+1. Update cleanup branch to latest
 2. Externalize CSS
 ## near future
 1. Add darkmode
