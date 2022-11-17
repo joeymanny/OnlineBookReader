@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Bar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="light.css">
+
+ 
+ <script>
+ function openRightMenu() {
+  document.getElementById("rightMenu").style.display = "block";
+ }
+
+ function closeRightMenu() {
+  document.getElementById("rightMenu").style.display = "none";
+ }
+
+ function toggleTheme(value) {
+  var sheets = document.getElementsByTagName('link');
+  sheets[1].href = value;
+   if (value == 'dark.css')
+    {
+     document.getElementById("darkbutt").style.display = "none";
+     document.getElementById("lightbutt").style.display = "block";
+    }
+    if (value == 'light.css')
+     {
+      document.getElementById("lightbutt").style.display = "none";
+      document.getElementById("darkbutt").style.display = "block";
+     }
+ }
+
+</script>
+ </head>
+
+
+ <body id="main">
+<!--Top Bar-->
+<div>
+  <div class="w3-top" style="letter-spacing:4px;">
+   <div class="w3-bar w3-padding w3-card">
+
+  <button class="w3-button w3-xlarge w3-right" onclick="openRightMenu()">☰</button>
+
+
+    <div class="w3-dropdown-hover w3-right">
+     <button class="w3-button" style="margin-right: 10%;">Jump</button>
+     <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="#1" class="w3-bar-item w3-button">Chapter 1</a>
+      <a href="#2" class="w3-bar-item w3-button">Chapter 2</a>
+      <a href="#3" class="w3-bar-item w3-button">Chapter 3</a>
+     </div>
+    </div>
+
+    <a href="#home" class="w3-bar-item w3-button">Top</a>
+    <button class="w3-button" id="darkbutt" onclick="toggleTheme('dark.css');">Dark</button>
+    <button class="w3-button" style="display: none" id="lightbutt" onclick="toggleTheme('light.css');">Light</button>
+
+<div id="rightMenu" class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+  <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+  <a href="about.html" class="w3-bar-item w3-button" >About</a>
+  <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+
+   </div>
+  </div>
+
+  </div>
+ </body>
+</html>
