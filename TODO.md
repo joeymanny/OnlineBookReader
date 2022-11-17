@@ -5,6 +5,7 @@
 ## near future
 1. ~~Add darkmode~~
 2. Format Moby text
+3. Fix right menu on dark mode
 ## eventually
 1. Create home page
 2. Add more books
