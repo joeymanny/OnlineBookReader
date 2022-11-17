@@ -1,13 +1,20 @@
- .text {
+.text {
    font-size: 27px;
-   margin-left:30%;
-   margin-right:30%
+   margin-left:25%;
+   margin-right: 25%
   }
  @media screen and (max-width: 1400px) {
   .text {
    font-size: 27px;
    margin-left:20%;
    margin-right:20%
+  }
+ }
+ @media screen and (max-width: 1000px) {
+  .text {
+   font-size: 27px;
+   margin-left:15%;
+   margin-right:15%
   }
  }
  @media screen and (max-width: 800px) {
@@ -29,3 +36,7 @@
   margin: 40px;
   margin-top: 120px;
  }
+body, a, p, .w3-bar {
+  background-color: white;
+  color: black;
+}
