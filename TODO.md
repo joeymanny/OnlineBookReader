@@ -1,6 +1,6 @@
 # TODO
 ## now
-1. Update cleanup branch to latest
+1. Update cleanup branch to latest 11.21
 2. ~~Externalize CSS~~
 ## near future
 1. ~~Add darkmode~~
