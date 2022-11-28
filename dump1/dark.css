@@ -1,0 +1,43 @@
+.text {
+   font-size: 27px;
+   margin-left:25%;
+   margin-right: 25%;
+  }
+ @media screen and (max-width: 1400px) {
+  .text {
+   font-size: 27px;
+   margin-left:20%;
+   margin-right:20%
+  }
+ }
+ @media screen and (max-width: 1000px) {
+  .text {
+   font-size: 27px;
+   margin-left:15%;
+   margin-right:15%
+  }
+ }
+ @media screen and (max-width: 800px) {
+  .text {
+   font-size: 25px;
+   margin-left:10%;
+   margin-right:10%
+  }
+ }
+ @media screen and (max-width: 600px) {
+  .text {
+   font-size: 25px;
+   margin-left:5%;
+   margin-right:5%
+  }
+ }
+ .chapter {
+  font-family: "Times New Roman", Georgia, Serif;
+  margin: 40px;
+  margin-top: 120px;
+  color: white;
+ }
+body, a, p, .w3-bar, .w3-sidebar, .w3-bar-block, .w3-button  {
+  background-color: #4b4b49;
+  color: white;
+}
